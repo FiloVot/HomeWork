@@ -1,0 +1,35 @@
+:root {
+ --primary-color:#FFFFFF;
+ --secondary-color:#2F303A;
+ --background-color:#F5F4FA;
+ --footer-color:#2F303A;
+ --button-color: #2196F3;
+ --header-color: #212121;
+ --a1-color: black;
+ --a2-color: #757575;
+}
+
+body{
+    background-color: var(--primary-color);
+}
+.fofa{
+    background-color: var(--secondary-color)
+}
+.Team{
+    background-color: var(--background-color)
+}
+.Pidval{
+    background-color: var(--footer-color)
+}
+.servisbutton{
+    background-color:var(--button-color) ;
+}
+footer{
+    color: white;
+}
+.a1{
+    color: var(--a1-color);
+}
+.a2{
+    color: var(--a2-color);
+}

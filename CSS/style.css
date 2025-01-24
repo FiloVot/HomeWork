@@ -70,7 +70,7 @@ gap: 0px;
 opacity: 0px;
    }
    
-   .a2:hover {
+   .a2 {
        color: var(--a2-color);
        font-family: "Roboto", serif;
    }
@@ -81,4 +81,7 @@ font-size: 44px;
 line-height: 60px;
 text-align: center;
    }
-   
+
+   .studioo{
+    color: #FFFFFF;
+   }

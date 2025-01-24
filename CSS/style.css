@@ -1,35 +1,84 @@
 :root {
- --primary-color:#FFFFFF;
- --secondary-color:#2F303A;
- --background-color:#F5F4FA;
- --footer-color:#2F303A;
- --button-color: #2196F3;
- --header-color: #212121;
- --a1-color: black;
- --a2-color: #757575;
-}
+    --primary-color: #FFFFFF;
+    --secondary-color: #2F303A;
+    --background-color: #F5F4FA;
+    --footer-color: #2F303A;
+    --button-color: #2196F3;
+    --header-color: #212121;
+    --a1-color: #000000;
+    --a2-color: #757575;
+   }
+   .logo{
+    font-family: "Raleway", serif;
+font-size: 26px;
+font-weight: 700;
+line-height: 30.52px;
+letter-spacing: 0.03em;
+text-align: left;
+   }
 
-body{
-    background-color: var(--primary-color);
+   .web {
+    color: #2196F3;
 }
-.fofa{
-    background-color: var(--secondary-color)
+.studio {
+    color: #000000;
 }
-.Team{
-    background-color: var(--background-color)
-}
-.Pidval{
-    background-color: var(--footer-color)
-}
-.servisbutton{
-    background-color:var(--button-color) ;
-}
-footer{
-    color: white;
-}
-.a1{
-    color: var(--a1-color);
-}
-.a2{
-    color: var(--a2-color);
-}
+   
+   body {
+       background-color: var(--primary-color);
+       font-family: "Roboto", serif;
+   }
+   
+   .section-button{
+       background-color: var(--secondary-color);
+       font-family: "Roboto", serif;
+   }
+   
+   .section-team {
+       background-color: var(--background-color);
+       font-family: "Roboto", serif;
+   }
+   
+   .class-foter {
+       background-color: var(--footer-color);
+       font-family: "Roboto", serif;
+   }
+   
+   .servis-button {
+       background-color: var(--button-color);
+       color: var(--primary-color);
+       font-family: "Roboto", serif;
+       font-weight: 700;
+       font-size: 16px;
+       line-height: 30px;
+       text-align: center;
+   }
+   
+   footer {
+       color: white;
+       font-family: "Roboto", serif;
+   }
+   
+   .a1:hover {
+       color: var(--a1-color);
+       font-family: "Roboto", serif;
+       width: 45px;
+height: 16px;
+top: 32px;
+left: 453px;
+gap: 0px;
+opacity: 0px;
+   }
+   
+   .a2:hover {
+       color: var(--a2-color);
+       font-family: "Roboto", serif;
+   }
+   .text-h1{
+    color: var(--primary-color);
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+text-align: center;
+   }
+   

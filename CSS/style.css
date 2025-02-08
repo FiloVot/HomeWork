@@ -25,7 +25,7 @@ body {
     font-family: "Raleway", serif;
     font-size: 26px;
     font-weight: 700;
-    line-height: 30.52px;
+    line-height: 1.385;
     letter-spacing: 0.03em;
     text-align: left;
     text-decoration: none;
@@ -35,7 +35,7 @@ body {
     color: var(--font-main);
 font-size: 14px;
 font-weight: 500;
-line-height: 16.41px;
+line-height: 1.172;
 letter-spacing: 0.02em;
 text-transform: none;
 }
@@ -44,7 +44,7 @@ text-transform: none;
     color: var(--main-text);
 font-size: 14px;
 font-weight: 500;
-line-height: 16.41px;
+line-height: 1.172;
 letter-spacing: 0.02em;
 }
 
@@ -55,7 +55,7 @@ letter-spacing: 0.02em;
 color: var(--font-second);
 font-size: 44px;
 font-weight: 900;
-line-height: 60px;
+line-height: 1.364;
 letter-spacing: 0.06em;
 text-align: center;
 }
@@ -64,28 +64,28 @@ text-align: center;
     color: var(--font-second);
 font-size: 16px;
 font-weight: 700;
-line-height: 30px;
+line-height: 1.875;
 letter-spacing: 0.06em;
 }
 .features-title {
     color: var(--font-main);
     font-size: 14px;
     font-weight: 700;
-    line-height: 16.41px;
+    line-height: 1.172;
     letter-spacing: 0.03em;
 }
 .features-text {
     color: var(--main-text);
 font-size: 14px;
 font-weight: 400;
-line-height: 24px;
+line-height: 1.714;
 letter-spacing: 0.03em;
 }
 .service-title {
     color: var(--font-main);
 font-size: 36px;
 font-weight: 700;
-line-height: 42.19px;
+line-height: 1.172;
 letter-spacing: 0.03em;
 text-align: center;
 }
@@ -96,7 +96,7 @@ text-align: center;
     color: var(--font-main);
 font-size: 36px;
 font-weight: 700;
-line-height: 42.19px;
+line-height: 1.172;
 letter-spacing: 0.03em;
 text-align: center;
 }
@@ -104,14 +104,14 @@ text-align: center;
     color: var(--font-main);
 font-size: 16px;
 font-weight: 500;
-line-height: 18.75px;
+line-height: 1.172;
 letter-spacing: 0.03em;
 }
 .team-role {
     color: var(--main-text);
 font-size: 16px;
 font-weight: 400;
-line-height: 18.75px;
+line-height: 1.172;
 letter-spacing: 0.03em;
 }
 .footer {
@@ -121,7 +121,7 @@ letter-spacing: 0.03em;
 color: var(--font-thir);
 font-size: 14px;
 font-weight: 400;
-line-height: 24px;
+line-height: 1.714;
 letter-spacing: 0.03em;
 text-align: left;
 }
@@ -129,7 +129,7 @@ text-align: left;
     color: var(--font-second);
 font-size: 14px;
 font-weight: 400;
-line-height: 24px;
+line-height: 1.714;
 letter-spacing: 0.03em;
 text-align: left;
 }

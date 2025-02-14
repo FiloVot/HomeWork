@@ -12,6 +12,10 @@ body {
     font-family: "Roboto", serif;
 }
 
+header {
+    padding-bottom: 360px 210px;
+}
+
 .web {
     color: #2196F3;
 }
@@ -49,7 +53,7 @@ letter-spacing: 0.02em;
 }
 
 .hero {
-    background: var(--main-bg);
+    background: var(--main-bg)
 }
 .hero-title {
 color: var(--font-second);

@@ -12,8 +12,20 @@ body {
     font-family: "Roboto", serif;
 }
 
-header {
-    padding-bottom: 360px 210px;
+.header {
+    padding: 24px 0;
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conteiner {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 
 .web {
@@ -30,9 +42,12 @@ header {
     font-size: 26px;
     font-weight: 700;
     line-height: 1.385;
-    letter-spacing: 0.03em;
-    text-align: left;
-    text-decoration: none;
+   margin-right: 0 auto;
+}
+
+.header-list {
+    display: flex;
+    gap: 50px;
 }
 
 .header-item {
@@ -40,8 +55,7 @@ header {
 font-size: 14px;
 font-weight: 500;
 line-height: 1.172;
-letter-spacing: 0.02em;
-text-transform: none;
+text-transform: uppercase;
 }
 
 .contact-item {
@@ -49,10 +63,11 @@ text-transform: none;
 font-size: 14px;
 font-weight: 500;
 line-height: 1.172;
-letter-spacing: 0.02em;
+display: flex;
 }
 
 .hero {
+    padding: 200px 0;
     background: var(--main-bg)
 }
 .hero-title {
@@ -66,11 +81,24 @@ text-align: center;
 .hero-button {
     background: var(--button-bg);
     color: var(--font-second);
+    display: flex;
+margin: 0 auto;
 font-size: 16px;
 font-weight: 700;
 line-height: 1.875;
-letter-spacing: 0.06em;
+padding: 10px 32px;
 }
+
+.features {
+    padding-top: 94px;
+}
+
+.features-list {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
 .features-title {
     color: var(--font-main);
     font-size: 14px;
@@ -83,7 +111,7 @@ letter-spacing: 0.06em;
 font-size: 14px;
 font-weight: 400;
 line-height: 1.714;
-letter-spacing: 0.03em;
+padding-bottom: 118px;
 }
 .service-title {
     color: var(--font-main);
@@ -91,49 +119,95 @@ font-size: 36px;
 font-weight: 700;
 line-height: 1.172;
 letter-spacing: 0.03em;
-text-align: center;
+display: flex;
+justify-content: center;
+padding-bottom: 50px;
 }
+
+.service-item {
+    display: flex;
+    display: block;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px 188px;
+}
+
+.service-img {
+    width: 327px;
+    height: 294px;
+}
+
 .team {
     background: var(--team-bg);
+    width: 1600px;
+height: 648px;
+padding: 94px 0;
 }
 .team-title {
     color: var(--font-main);
 font-size: 36px;
 font-weight: 700;
 line-height: 1.172;
-letter-spacing: 0.03em;
-text-align: center;
+padding: 50px 0;
+display: flex;
+justify-content: center;
 }
+
+.team-list {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 124px;
+}
+
+.team-item {
+    background: var(--font-second);
+}
+
 .team-name {
     color: var(--font-main);
 font-size: 16px;
 font-weight: 500;
 line-height: 1.172;
-letter-spacing: 0.03em;
+display: flex;
+justify-content: center;
+padding-top: 30px;
+padding-bottom: 10px;
 }
 .team-role {
     color: var(--main-text);
 font-size: 16px;
 font-weight: 400;
 line-height: 1.172;
-letter-spacing: 0.03em;
+display: flex;
+justify-content: center;
+padding-bottom: 30px;
 }
 .footer {
     background: var(--main-bg);
+    width: 1600px;
+height: 252px;
+padding: 60px 0;
 }
-.footer-item {
-color: var(--font-thir);
-font-size: 14px;
-font-weight: 400;
-line-height: 1.714;
-letter-spacing: 0.03em;
-text-align: left;
-}
+
 .footer-adrees {
     color: var(--font-second);
 font-size: 14px;
 font-weight: 400;
 line-height: 1.714;
 letter-spacing: 0.03em;
-text-align: left;
+display: flex;
+justify-content: left;
+padding-top: 20px;
+}
+
+.footer-item {
+color: var(--font-thir);
+font-size: 14px;
+font-weight: 400;
+line-height: 1.714;
+letter-spacing: 0.03em;
+display: flex;
+justify-content: left;
+gap: 9px
 }

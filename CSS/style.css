@@ -1,213 +1,231 @@
 :root {
-    --font-main:#212121;
-    --font-second:#FFFFFF;
-    --font-thir: #FFFFFF99;
-    --main-bg:#2F303A;
-    --button-bg:#2196F3;
-    --team-bg:#F5F4FA;
-    --main-text:#757575;
+  --font-main: #212121;
+  --font-second: #ffffff;
+  --font-thir: #ffffff99;
+  --main-bg: #2f303a;
+  --button-bg: #2196f3;
+  --team-bg: #f5f4fa;
+  --main-text: #757575;
 }
 
 body {
-    font-family: "Roboto", serif;
+  font-family: "Roboto", serif;
 }
 
 .header {
-    padding: 24px 0;
+  padding: 24px 0;
 }
 
 .header-flex {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .conteiner {
-    max-width: 1200px;
-    padding: 0 15px;
-    margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 .web {
-    color: #2196F3;
+  color: #2196f3;
 }
 .studio {
-    color: #000000;
+  color: #000000;
 }
 .studio-second {
-    color: var(--font-second);
+  color: var(--font-second);
 }
 .logo {
-    font-family: "Raleway", serif;
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 1.385;
-   margin-right: 0 auto;
+  font-family: "Raleway", serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.385;
 }
 
 .header-list {
-    display: flex;
-    gap: 50px;
+  display: flex;
+  gap: 50px;
+  margin-left: 93px;
 }
 
 .header-item {
-    color: var(--font-main);
-font-size: 14px;
-font-weight: 500;
-line-height: 1.172;
-text-transform: uppercase;
+  color: var(--font-main);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.172;
+  text-transform: uppercase;
+}
+
+.contacts {
+  margin-left: auto;
+}
+
+.contacts-list {
+  display: flex;
+  gap: 50px;
 }
 
 .contact-item {
-    color: var(--main-text);
-font-size: 14px;
-font-weight: 500;
-line-height: 1.172;
-display: flex;
+  color: var(--main-text);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.172;
+  display: flex;
 }
 
 .hero {
-    padding: 200px 0;
-    background: var(--main-bg)
+  padding: 200px 0;
+  background: var(--main-bg);
 }
 .hero-title {
-color: var(--font-second);
-font-size: 44px;
-font-weight: 900;
-line-height: 1.364;
-letter-spacing: 0.06em;
-text-align: center;
+  color: var(--font-second);
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.364;
+  width: 696px;
+  height: 120;
+  letter-spacing: 6px;
+  text-align: center;
 }
 .hero-button {
-    background: var(--button-bg);
-    color: var(--font-second);
-    display: flex;
-margin: 0 auto;
-font-size: 16px;
-font-weight: 700;
-line-height: 1.875;
-padding: 10px 32px;
+  background: var(--button-bg);
+  color: var(--font-second);
+  display: flex;
+  margin: 0 auto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.875;
+  padding: 10px 32px;
 }
 
 .features {
-    padding-top: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .features-list {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 0 30px;
 }
 
 .features-title {
-    color: var(--font-main);
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 1.172;
-    letter-spacing: 0.03em;
+  color: var(--font-main);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.172;
+  letter-spacing: 0.03em;
 }
 .features-text {
-    color: var(--main-text);
-font-size: 14px;
-font-weight: 400;
-line-height: 1.714;
-padding-bottom: 118px;
+  color: var(--main-text);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.714;
 }
+
+.service {
+  padding-bottom: 94px;
+}
+
+.service-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
 .service-title {
-    color: var(--font-main);
-font-size: 36px;
-font-weight: 700;
-line-height: 1.172;
-letter-spacing: 0.03em;
-display: flex;
-justify-content: center;
-padding-bottom: 50px;
+  color: var(--font-main);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.172;
+  letter-spacing: 0.03em;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
 }
 
 .service-item {
-    display: flex;
-    display: block;
-    display: inline-block;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 30px 188px;
+  display: flex;
+  display: block;
+  display: inline-block;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .service-img {
-    width: 327px;
-    height: 294px;
+  width: 327px;
+  height: 294px;
 }
 
 .team {
-    background: var(--team-bg);
-    width: 1600px;
-height: 648px;
-padding: 94px 0;
+  background: var(--team-bg);
+  padding-bottom: 94px;
 }
 .team-title {
-    color: var(--font-main);
-font-size: 36px;
-font-weight: 700;
-line-height: 1.172;
-padding: 50px 0;
-display: flex;
-justify-content: center;
+  color: var(--font-main);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.172;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
 }
 
 .team-list {
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 124px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .team-item {
-    background: var(--font-second);
+  background: var(--font-second);
 }
 
 .team-name {
-    color: var(--font-main);
-font-size: 16px;
-font-weight: 500;
-line-height: 1.172;
-display: flex;
-justify-content: center;
-padding-top: 30px;
-padding-bottom: 10px;
+  color: var(--font-main);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.172;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 .team-role {
-    color: var(--main-text);
-font-size: 16px;
-font-weight: 400;
-line-height: 1.172;
-display: flex;
-justify-content: center;
-padding-bottom: 30px;
+  color: var(--main-text);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.172;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
 }
 .footer {
-    background: var(--main-bg);
-    width: 1600px;
-height: 252px;
-padding: 60px 0;
+  background: var(--main-bg);
+  padding: 60px 0;
 }
 
 .footer-adrees {
-    color: var(--font-second);
-font-size: 14px;
-font-weight: 400;
-line-height: 1.714;
-letter-spacing: 0.03em;
-display: flex;
-justify-content: left;
-padding-top: 20px;
+  color: var(--font-second);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  display: flex;
+  justify-content: left;
+  padding-top: 20px;
 }
 
 .footer-item {
-color: var(--font-thir);
-font-size: 14px;
-font-weight: 400;
-line-height: 1.714;
-letter-spacing: 0.03em;
-display: flex;
-justify-content: left;
-gap: 9px
+  color: var(--font-thir);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  display: flex;
+  justify-content: left;
+  gap: 9px;
 }

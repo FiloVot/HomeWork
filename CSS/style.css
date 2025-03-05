@@ -58,6 +58,10 @@ body {
   text-transform: uppercase;
 }
 
+.header-item:hover {
+color: #2196f3;
+}
+
 .contacts {
   margin-left: auto;
 }
@@ -75,6 +79,10 @@ body {
   display: flex;
 }
 
+.contact-item:hover {
+  color: #2196f3;
+}
+
 .hero {
   padding: 200px 0;
   background: var(--main-bg);
@@ -86,8 +94,10 @@ body {
   line-height: 1.364;
   width: 696px;
   height: 120;
-  letter-spacing: 6px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
   text-align: center;
+padding-bottom: 30px;
 }
 .hero-button {
   background: var(--button-bg);
@@ -98,6 +108,7 @@ body {
   font-weight: 700;
   line-height: 1.875;
   padding: 10px 32px;
+border: none;
 }
 
 .features {
@@ -208,14 +219,18 @@ body {
   padding: 60px 0;
 }
 
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
 .footer-adrees {
   color: var(--font-second);
   font-size: 14px;
   font-weight: 400;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  display: flex;
-  justify-content: left;
   padding-top: 20px;
 }
 
@@ -225,7 +240,5 @@ body {
   font-weight: 400;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  display: flex;
-  justify-content: left;
   gap: 9px;
 }

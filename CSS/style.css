@@ -264,67 +264,97 @@ body {
   text-align: center;
 }
 
-.button-item1 {
-  border-radius: 4px;
-  background: #F5F4FA;
-  letter-spacing: 0.48px;
-  width: 73px;
-height: 38px;
-flex-shrink: 0;
-margin: 0 8px;
+.button-item{
+  padding: 0 8px;
 }
 
-.button-item2 {
-  border-radius: 4px;
-  background: #F5F4FA;
-  letter-spacing: 0.48px;
-  width: 125px;
-height: 38px;
-flex-shrink: 0;
-margin: 0 8px;
-}
-
-.button-item3 {
-  border-radius: 4px;
-  background: #F5F4FA;
-  letter-spacing: 0.48px;
-  width: 112px;
-height: 38px;
-flex-shrink: 0;
-margin: 0 8px;
-}
-
-.button-item4 {
-  border-radius: 4px;
-  background: #F5F4FA;
-  letter-spacing: 0.48px;
-  width: 103px;
-height: 38px;
-flex-shrink: 0;
-margin: 0 8px;
-}
-
-.button-item5 {
-  border-radius: 4px;
-  background: #F5F4FA;
-  letter-spacing: 0.48px;
-  width: 130px;
-height: 38px;
-flex-shrink: 0;
-margin: 0 8px;
-}
-
-.port-button {
+.port-button1 {
   border-radius: 4px;
   background: #F5F4FA;
   border: none;
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.48px;
-  padding: 6px 0;
+  padding: 0 8px;
+  width: 73px;
+height: 38px;
+flex-shrink: 0;
 }
 
-.port-button:hover {
+.port-button2 {
+  border-radius: 4px;
+  background: #F5F4FA;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.48px;
+  padding: 0 8px;
+  width: 125px;
+  height: 38px;
+  flex-shrink: 0;
+}
+
+.port-button3 {
+  border-radius: 4px;
+  background: #F5F4FA;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.48px;
+  padding: 0 8px;
+  width: 112px;
+  height: 38px;
+  flex-shrink: 0;
+}
+
+.port-button4 {
+  border-radius: 4px;
+  background: #F5F4FA;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.48px;
+  padding: 0 8px;
+  width: 103px;
+  height: 38px;
+  flex-shrink: 0;
+}
+
+.port-button5 {
+  border-radius: 4px;
+  background: #F5F4FA;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.48px;
+
+  width: 130px;
+height: 38px;
+flex-shrink: 0;
+}
+
+
+.port-button1:hover {
+  background: #2196f3;
+  color: #ffffff;
+}
+
+.port-button2:hover {
+  background: #2196f3;
+  color: #ffffff;
+}
+
+.port-button3:hover {
+  background: #2196f3;
+  color: #ffffff;
+}
+
+.port-button4:hover {
+  background: #2196f3;
+  color: #ffffff;
+}
+
+.port-button5:hover {
   background: #2196f3;
   color: #ffffff;
 }

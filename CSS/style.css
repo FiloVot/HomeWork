@@ -262,10 +262,11 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
+  gap: 8px;
 }
 
 .button-item{
-  padding: 0 8px;
+  display: flex;
 }
 
 .port-button1 {
@@ -275,10 +276,7 @@ body {
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.48px;
-  padding: 0 8px;
-  width: 73px;
-height: 38px;
-flex-shrink: 0;
+padding: 6px 25px;
 }
 
 .port-button2 {
@@ -288,10 +286,7 @@ flex-shrink: 0;
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.48px;
-  padding: 0 8px;
-  width: 125px;
-  height: 38px;
-  flex-shrink: 0;
+ padding: 6px 22px;
 }
 
 .port-button3 {
@@ -301,10 +296,7 @@ flex-shrink: 0;
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.48px;
-  padding: 0 8px;
-  width: 112px;
-  height: 38px;
-  flex-shrink: 0;
+padding: 6px 22px;
 }
 
 .port-button4 {
@@ -314,10 +306,7 @@ flex-shrink: 0;
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.48px;
-  padding: 0 8px;
-  width: 103px;
-  height: 38px;
-  flex-shrink: 0;
+ padding: 6px 22px;
 }
 
 .port-button5 {
@@ -327,10 +316,7 @@ flex-shrink: 0;
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.48px;
-
-  width: 130px;
-height: 38px;
-flex-shrink: 0;
+padding: 6px 22px;
 }
 
 

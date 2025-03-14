@@ -247,8 +247,12 @@ body {
 }
 /* Портфоліо */
 .header-portfolio {
-  background: #ececec;
+  background: #ffffff;
   padding: 24px 0;
+}
+
+.Horizontal-Rule {
+  border: 1px solid #ECECEC
 }
 
 .portfolio-imgs {

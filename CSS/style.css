@@ -86,8 +86,9 @@ body {
 .hero {
   padding: 200px 0;
   background: var(--main-bg);
-  background-image: url(../images/imgs/Ефективні\ рішення\ для\ вашого\ бізнесу\ \(1\).jpg);
-background-repeat: no-repeat;
+  background-image: url(../images/imgs/effective\ .jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .hero-title {
   color: var(--font-second);
@@ -127,7 +128,7 @@ background-repeat: no-repeat;
 }
 
 .features-item:nth-child(1)::before {
-  background-image: url(../images/imgs/УВАГАДОДЕТАЛЕЙ.png);
+  background-image: url(../images/imgs/attention_to_detail.png);
   content: "";
   display: block;
   width: 270px;
@@ -139,7 +140,7 @@ background-repeat: no-repeat;
 }
 
 .features-item:nth-child(2)::before {
-  background-image: url(../images/imgs/ПУНКТУАЛЬНІСТЬ.png);
+  background-image: url(../images/imgs/punctuality.png);
   content: "";
   display: block;
   width: 270px;
@@ -151,7 +152,7 @@ background-repeat: no-repeat;
 }
 
 .features-item:nth-child(3)::before {
-  background-image: url(../images/imgs/ПЛАНУВАННЯ.png);
+  background-image: url(../images/imgs/planning.png);
   content: "";
   display: block;
   width: 270px;
@@ -163,15 +164,15 @@ background-repeat: no-repeat;
 }
 
 .features-item:nth-child(4)::before {
-  background-image: url(../images/imgs/СУЧАСНІТЕХНОЛОГІЇ.png);
+  background-image: url(../images/imgs/modern_technology.png);
   content: "";
   display: block;
   width: 270px;
   height: 120px;
   flex-shrink: 0;
   background-repeat: no-repeat;
-background-color: var(--team-bg);
-background-position: center;
+  background-color: var(--team-bg);
+  background-position: center;
 }
 
 .features-title {
@@ -182,6 +183,7 @@ background-position: center;
   letter-spacing: 0.03em;
   width: 270px;
   padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 .features-text {
@@ -304,7 +306,7 @@ background-position: center;
 }
 
 .Horizontal-Rule {
-  border: 1px solid #ECECEC
+  border: 1px solid #ececec;
 }
 
 .portfolio-imgs {
@@ -321,65 +323,64 @@ background-position: center;
   gap: 8px;
 }
 
-.button-item{
+.button-item {
   display: flex;
 }
 
 .port-button1 {
   border-radius: 4px;
-  background: #F5F4FA;
+  background: #f5f4fa;
   border: none;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.625;
   letter-spacing: 0.48px;
-padding: 6px 25px;
+  padding: 6px 25px;
 }
 
 .port-button2 {
   border-radius: 4px;
-  background: #F5F4FA;
+  background: #f5f4fa;
   border: none;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.625;
   letter-spacing: 0.48px;
- padding: 6px 22px;
+  padding: 6px 22px;
 }
 
 .port-button3 {
   border-radius: 4px;
-  background: #F5F4FA;
+  background: #f5f4fa;
   border: none;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.625;
   letter-spacing: 0.48px;
-padding: 6px 22px;
+  padding: 6px 22px;
 }
 
 .port-button4 {
   border-radius: 4px;
-  background: #F5F4FA;
+  background: #f5f4fa;
   border: none;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.625;
   letter-spacing: 0.48px;
- padding: 6px 22px;
+  padding: 6px 22px;
 }
 
 .port-button5 {
   border-radius: 4px;
-  background: #F5F4FA;
+  background: #f5f4fa;
   border: none;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.625;
   letter-spacing: 0.48px;
-padding: 6px 22px;
+  padding: 6px 22px;
 }
-
 
 .port-button1:hover {
   background: #2196f3;

@@ -112,6 +112,11 @@ body {
   padding: 10px 32px;
   border: none;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.hero-button:hover {
+  background-color: var(--main-text);
 }
 
 .features {
@@ -137,6 +142,7 @@ body {
   background-repeat: no-repeat;
   background-color: var(--team-bg);
   background-position: center;
+  border-radius: 4px;
 }
 
 .features-item:nth-child(2)::before {
@@ -149,6 +155,7 @@ body {
   background-repeat: no-repeat;
   background-color: var(--team-bg);
   background-position: center;
+  border-radius: 4px;
 }
 
 .features-item:nth-child(3)::before {
@@ -161,6 +168,7 @@ body {
   background-repeat: no-repeat;
   background-color: var(--team-bg);
   background-position: center;
+  border-radius: 4px;
 }
 
 .features-item:nth-child(4)::before {
@@ -173,6 +181,7 @@ body {
   background-repeat: no-repeat;
   background-color: var(--team-bg);
   background-position: center;
+  border-radius: 4px;
 }
 
 .features-title {
@@ -424,7 +433,8 @@ body {
 }
 
 .imgs-item:hover {
-  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
 }
 
 .imgs-img {

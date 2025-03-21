@@ -86,6 +86,8 @@ body {
 .hero {
   padding: 200px 0;
   background: var(--main-bg);
+  background-image: url(../images/imgs/Ефективні\ рішення\ для\ вашого\ бізнесу\ \(1\).jpg);
+background-repeat: no-repeat;
 }
 .hero-title {
   color: var(--font-second);
@@ -132,6 +134,17 @@ body {
   letter-spacing: 0.03em;
   width: 270px;
 }
+
+.features-title::before {
+  content: ""; 
+  display: block; 
+  width: 100px;
+  height: 100px;
+  background-image: url(../images/imgs/Group.jpg);
+  background-repeat: no-repeat;
+}
+
+
 .features-text {
   color: var(--main-text);
   font-size: 14px;

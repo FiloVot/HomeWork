@@ -84,11 +84,12 @@ body {
 
 .hero {
   padding: 200px 0;
-  background: var(--main-bg);
-  background-image: url(../images/imgs/effective\ .jpg);
+  background-image: linear-gradient(#2f303a40,#2f303a40), url("../images/imgs/effective.jpg");
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }
+
 .hero-title {
   color: var(--font-second);
   font-size: 44px;

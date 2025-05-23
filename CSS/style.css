@@ -6,6 +6,7 @@
   --button-bg: #2196f3;
   --team-bg: #f5f4fa;
   --main-text: #757575;
+  --svg-icon-team:#afb1b8;
 }
 
 body {
@@ -59,6 +60,7 @@ body {
 
 .header-item:hover {
   color: #2196f3;
+  transition: all 0.5s linear;
 }
 
 .contacts {
@@ -70,21 +72,35 @@ body {
   gap: 50px;
 }
 
-.contact-item {
+.contact-link {
   color: var(--main-text);
   font-size: 14px;
   font-weight: 500;
   line-height: 1.172;
-  display: flex;
+  display: flex; 
+  margin-left: 10px;
 }
 
-.contact-item:hover {
+.contacts-item {
+      display: flex;
+    align-items: center;
+}
+
+.contacts-svg {
+  width: 16px;
+    height: 12px;
+}
+
+
+.contact-link:hover {
   color: #2196f3;
+  transition: all 0.5s linear;
 }
 
 .hero {
   padding: 200px 0;
   background-image: linear-gradient(#2f303a40,#2f303a40), url("../images/imgs/effective.jpg");
+  background-color: var(--main-bg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -118,6 +134,7 @@ body {
 
 .hero-button:hover {
   background-color: var(--main-text);
+  transition: all 0.5s linear;
 }
 
 .features {
@@ -234,8 +251,9 @@ body {
   align-items: center;
 }
 
+
 .service-img {
-  width: 327px;
+  width: 370px;
   height: 294px;
 }
 
@@ -283,6 +301,65 @@ body {
   justify-content: center;
   padding-bottom: 30px;
 }
+
+.team-s-list {
+  display: flex;
+    margin-bottom: 31px;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+.team-s-item {
+    display: flex;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    padding: 12px;
+}
+
+.team-s {
+      width: 20px;
+    height: 20px;
+    fill: var(--svg-icon-team);
+}
+
+.client {
+  padding: 94px 0;
+}
+
+.client-title {
+  color: #212121;
+text-align: center;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.08px;
+}
+
+.client-list {
+  display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    gap: 30px;
+}
+
+.client-item {
+      padding: 16px 32px;
+    border: 1px solid var(--svg-icon-team);
+    border-radius: 4px;
+}
+
+.client-svg {
+  width: 106px;
+    height: 60px;
+    transition: all 0.4s ease;
+    fill: var(--svg-icon-team);
+}
+
 .footer {
   background: var(--main-bg);
   padding: 60px 0;
@@ -311,6 +388,9 @@ body {
   letter-spacing: 0.03em;
   gap: 9px;
 }
+
+
+
 /* Портфоліо */
 .header-portfolio {
   background: #ffffff;
@@ -397,26 +477,31 @@ body {
 .port-button1:hover {
   background: #2196f3;
   color: #ffffff;
+  transition: all 0.5s linear;
 }
 
 .port-button2:hover {
   background: #2196f3;
   color: #ffffff;
+  transition: all 0.5s linear;
 }
 
 .port-button3:hover {
   background: #2196f3;
   color: #ffffff;
+  transition: all 0.5s linear;
 }
 
 .port-button4:hover {
   background: #2196f3;
   color: #ffffff;
+  transition: all 0.5s linear;
 }
 
 .port-button5:hover {
   background: #2196f3;
   color: #ffffff;
+  transition: all 0.5s linear;
 }
 
 .portfolio-imgs {

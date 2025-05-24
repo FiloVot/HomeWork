@@ -33,24 +33,32 @@
   </head>
   <body>
     <!-- Шапка Сайту -->
-    <header class="header-portfolio">
+    <header class="header">
       <div class="conteiner header-flex">
         <a href="./index.html" class="logo">
           <span class="web">Web</span><span class="studio">Studio</span></a
         >
         <nav class="header-nav">
           <ul class="header-list">
-            <li><a class="header-item" href="./index.html">Студія</a></li>
-            <li><a class="header-item" href="./about.html">Портфоліо</a></li>
-            <li><a class="header-item" href="./about2.html">Контакти</a></li>
+            <li class="header-link"><a class="header-item" href="./index.html">Студія</a></li>
+            <li class="header-link"><a class="header-item" href="#">Портфоліо</a></li>
+            <li class="header-link"><a class="header-item" href="./about2.html">Контакти</a></li>
           </ul>
         </nav>
         <address class="contacts">
           <ul class="contacts-list">
-            <li>
-              <a class="contact-item" href="#">info@devstudio.com</a>
+            <li class="contacts-item">
+              <svg class="contacts-link-svg">
+                <use href="./images/svg/symbol-defs.svg#icon-mailblue"></use>
+              </svg>
+              <a class="contact-link" href="#">info@devstudio.com</a>
             </li>
-            <li><a class="contact-item" href="#">+38 096 111 11 11</a></li>
+            <li class="contacts-item">
+              <svg class="contacts-link-svg">
+                <use href="./images/svg/symbol-defs.svg#icon-smartp"></use>
+              </svg>
+              <a class="contact-link" href="#">+38 096 111 11 11</a>
+            </li>
           </ul>
         </address>
       </div>
@@ -128,6 +136,7 @@
     </main>
     <footer class="footer">
       <div class="conteiner">
+        <div class="footer-wrap">
         <a href="#" class="logo"
           ><span class="web">Web</span
           ><span class="studio-second">Studio</span></a
@@ -137,6 +146,32 @@
           <li class="footer-item">info@gmail.com</li>
           <li class="footer-item">+380 111 111 111</li>
         </ul>
+        </div>
+        <div class="join">
+          <h3 class="join-title">приєднуйтесь</h3>
+          <ul class="join-list">
+            <li class="join-item item-join">
+              <svg class="join-svg item-join">
+                <use href="./images/svg/symbol-defs.svg#icon-inst"></use>
+              </svg>
+            </li>
+            <li class="join-item item-join">
+              <svg class="join-svg">
+                <use href="./images/svg/symbol-defs.svg#icon-x"></use>
+              </svg>
+            </li>
+            <li class="join-item item-join">
+              <svg class="join-svg">
+                <use href="./images/svg/symbol-defs.svg#icon-facebook"></use>
+              </svg>
+            </li>
+            <li class="join-item item-join">
+              <svg class="join-svg">
+                <use href="./images/svg/symbol-defs.svg#icon-ln"></use>
+              </svg>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>

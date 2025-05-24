@@ -58,6 +58,25 @@ body {
   line-height: 1.172;
 }
 
+.header-link {
+  position: relative;
+}
+
+nav a[href="#"] {
+  color: var(--button-bg);
+}
+
+nav a[href="#"]::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  bottom: -32px;
+  border-radius: 2px;
+  background: var(--button-bg);
+}
+
 .header-item:hover {
   color: #2196f3;
   transition: all 0.5s linear;
@@ -92,8 +111,8 @@ body {
   fill: var(--svg-icon-team);
 }
 
-.contact-link:hover,
-.contact-link:hover .contacts-link-svg {
+.contacts-item:hover .contact-link,
+.contacts-item:hover .contacts-link-svg {
   color: #2196f3;
   transition: all 0.5s linear;
   fill: var(--button-bg);
@@ -252,6 +271,36 @@ body {
   display: inline-block;
   justify-content: space-between;
   align-items: center;
+  position: relative;
+}
+
+.service-item::before {
+  content: "";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  background: rgba(47, 48, 58, 0.8);
+  color: var(--font-second);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+
+.service-pc::before {
+  content: "Десктопні додатки";
+}
+.service-phone::before {
+  content: "Мобільні додатки";
+}
+.service-color::before {
+  content: "Дизайнерські рішення";
 }
 
 .service-img {
@@ -408,6 +457,10 @@ body {
   line-height: 1.714;
   letter-spacing: 0.03em;
   gap: 9px;
+}
+
+.footer .conteiner {
+  display: flex;
 }
 
 .join {

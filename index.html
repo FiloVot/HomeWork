@@ -33,9 +33,15 @@
         >
         <nav class="header-nav">
           <ul class="header-list">
-            <li class="header-link"><a class="header-item" href="#">Студія</a></li>
-            <li class="header-link"><a class="header-item" href="./about.html">Портфоліо</a></li>
-            <li class="header-link"><a class="header-item" href="./about2.html">Контакти</a></li>
+            <li class="header-link">
+              <a class="header-item" href="#">Студія</a>
+            </li>
+            <li class="header-link">
+              <a class="header-item" href="./about.html">Портфоліо</a>
+            </li>
+            <li class="header-link">
+              <a class="header-item" href="./about2.html">Контакти</a>
+            </li>
           </ul>
         </nav>
         <address class="contacts">
@@ -61,7 +67,26 @@
       <section class="hero">
         <div class="conteiner">
           <h1 class="hero-title">Ефективне рішеня для вашого бізнеса</h1>
-          <button type="button" class="hero-button">Замовити Послугу</button>
+          <button id="openModalBtn" type="button" class="hero-button">
+            Замовити Послугу
+          </button>
+          <div class="modal" id="modal">
+            <div class="modal-content">
+              <span class="close-btn" id="closeModalBtn">&times;</span>
+              <h2 class="modal-title">
+                Залиште свої дані, ми вам передзвонимо
+              </h2>
+              <form action="#">
+                <p class="modal-text">Ім'я</p>
+                <input class="modal-input" type="text" />
+                <p class="modal-text">Телефон</p>
+                <input class="modal-input" type="tel" />
+                <p class="modal-text">Пошта</p>
+                <input class="modal-input" type="email" />
+                <button type="submit" class="submit-btn">Відправити</button>
+              </form>
+            </div>
+          </div>
         </div>
       </section>
       <!-- Увага до деталій -->
@@ -319,15 +344,15 @@
     <footer class="footer">
       <div class="conteiner">
         <div class="footer-wrap">
-        <a href="#" class="logo"
-          ><span class="web">Web</span
-          ><span class="studio-second">Studio</span></a
-        >
-        <ul class="footer-list">
-          <li class="footer-adrees">м. Київ, пр-т Лесі Украінки, 26</li>
-          <li class="footer-item">info@gmail.com</li>
-          <li class="footer-item">+380 111 111 111</li>
-        </ul>
+          <a href="#" class="logo"
+            ><span class="web">Web</span
+            ><span class="studio-second">Studio</span></a
+          >
+          <ul class="footer-list">
+            <li class="footer-adrees">м. Київ, пр-т Лесі Украінки, 26</li>
+            <li class="footer-item">info@gmail.com</li>
+            <li class="footer-item">+380 111 111 111</li>
+          </ul>
         </div>
         <div class="join">
           <h3 class="join-title">приєднуйтесь</h3>
@@ -356,5 +381,6 @@
         </div>
       </div>
     </footer>
+    <script src="./JS/model.js"></script>
   </body>
 </html>

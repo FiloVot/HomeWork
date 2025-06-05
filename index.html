@@ -73,13 +73,11 @@
           <div class="modal" id="modal">
             <div class="modal-content">
               <span class="close-btn" id="closeModalBtn">&times;</span>
-              <p class="modal-title">
-                Залиште свої дані, ми вам передзвонимо
-              </p>
+              <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
               <form action="#">
                 <label for="name" class="modal-lable">Ім'я</label>
-                <div class="modal-div">  
-                  <input class="modal-input" type="email" />     
+                <div class="modal-div">
+                  <input class="modal-input" type="email" />
                   <svg class="modal-svg">
                     <use href=".//images/svg/symbol-defs.svg#icon-Humen"></use>
                   </svg>
@@ -92,11 +90,30 @@
                   </svg>
                 </div>
                 <label for="email" class="modal-lable">Пошта</label>
-                <div class="modal-div">  
+                <div class="modal-div">
                   <input class="modal-input" type="email" />
                   <svg class="modal-svg">
-                    <use href=".//images/svg/symbol-defs.svg#icon-mailblack"></use>
+                    <use
+                      href=".//images/svg/symbol-defs.svg#icon-mailblack"
+                    ></use>
                   </svg>
+                </div>
+                <div class="modal-coment">
+                  <label class="modal-lable" for="text">Коментар</label>
+                </div>
+                <div>
+                  <textarea
+                    name="text"
+                    id="text"
+                    class="modal-text"
+                    placeholder="Ваше повідомленя"
+                  ></textarea>
+                </div>
+                <div class="modal-privat">
+<input class="checkbox" type="checkbox" type="checkbox" id="checkbox">
+<p class="checkbox-text">Погоджуюся з розсилкою та приймаю</p>
+<!-- можно зделать спаном -->
+<a href="#" class="checkbox-a">Умови договору</a>
                 </div>
                 <button type="submit" class="submit-btn">Відправити</button>
               </form>

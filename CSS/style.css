@@ -867,9 +867,11 @@ margin-left: 12px;
 }
 .imgs-item {
   flex-basis: calc((100% - 60px) / 3);
+  outline: rgb(238, 238, 238) solid 1px;
   border: solid #eee;
   background: #fff;
 }
+
 
 .imgs-item:hover {
   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12),
